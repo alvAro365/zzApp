@@ -1,0 +1,59 @@
+PODS:
+  - AlertOnboarding (2.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Eureka (4.2.0)
+  - FacebookCore (0.3.2):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.35)
+  - FacebookLogin (0.3.2):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3.2)
+    - FBSDKCoreKit (~> 4.35)
+    - FBSDKLoginKit (~> 4.35)
+  - FBSDKCoreKit (4.36.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.36.0):
+    - FBSDKCoreKit
+  - SwiftDate (5.0.7)
+
+DEPENDENCIES:
+  - AlertOnboarding
+  - Charts
+  - Eureka
+  - FacebookLogin
+  - SwiftDate (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlertOnboarding
+    - Bolts
+    - Charts
+    - Eureka
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - SwiftDate
+
+SPEC CHECKSUMS:
+  AlertOnboarding: 2e6804e67894894807c5d24bcfcd7905897e6f08
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Eureka: 0748c7bbb2560130e43c7bfa83e99c98854a1f42
+  FacebookCore: fe93222bb70346730ef33b061d493e9e7a7cb1f5
+  FacebookLogin: a4e225974791c82836765a294582b4778baffc07
+  FBSDKCoreKit: 3b8e6570eedb443f9fc4af196a7bf39f18e3a3d8
+  FBSDKLoginKit: 8bccb6064708ab2f4251a7fc4e3b6d8d00ad91ba
+  SwiftDate: f053fb89250c59af5eff777f3b832d2b9dd57403
+
+PODFILE CHECKSUM: 11122518cdfee63a23a003389b884a01331b6d0c
+
+COCOAPODS: 1.5.3

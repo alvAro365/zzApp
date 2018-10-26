@@ -7,13 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3826E921213FF4B40086E5DC /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E920213FF4B40086E5DC /* StartViewController.swift */; };
+		3826E925214104660086E5DC /* LoggedInStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E924214104660086E5DC /* LoggedInStartViewController.swift */; };
+		3826E927214264880086E5DC /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3826E926214264880086E5DC /* HealthKit.framework */; };
+		3826E92A21429D6C0086E5DC /* HealthKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E92921429D6C0086E5DC /* HealthKitHelper.swift */; };
+		3826E9662146B5440086E5DC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E9652146B5430086E5DC /* SettingsViewController.swift */; };
+		3826E96A2147C8F90086E5DC /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E9692147C8F90086E5DC /* DataProvider.swift */; };
+		3826E96C2147DCDE0086E5DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E96B2147DCDE0086E5DC /* User.swift */; };
+		3826E97021492E270086E5DC /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E96F21492E270086E5DC /* IntExtension.swift */; };
+		3826E972214A4A990086E5DC /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826E971214A4A990086E5DC /* LocalNotification.swift */; };
+		3826E9B7214FA9280086E5DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3826E9B6214FA9280086E5DC /* Main.storyboard */; };
 		383BE09C213FC21700925CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BE09B213FC21700925CC3 /* AppDelegate.swift */; };
-		383BE09E213FC21700925CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BE09D213FC21700925CC3 /* ViewController.swift */; };
-		383BE0A1213FC21700925CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383BE09F213FC21700925CC3 /* Main.storyboard */; };
 		383BE0A3213FC21900925CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383BE0A2213FC21900925CC3 /* Assets.xcassets */; };
 		383BE0A6213FC21900925CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383BE0A4213FC21900925CC3 /* LaunchScreen.storyboard */; };
 		383BE0B1213FC21900925CC3 /* zzAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BE0B0213FC21900925CC3 /* zzAppTests.swift */; };
 		383BE0BC213FC21900925CC3 /* zzAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BE0BB213FC21900925CC3 /* zzAppUITests.swift */; };
+		3864CAC021527A260082B48E /* GoalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CABF21527A260082B48E /* GoalsTableViewCell.swift */; };
+		3864CAC221527FF10082B48E /* AchievementsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAC121527FF10082B48E /* AchievementsHelper.swift */; };
+		3864CAC421528A760082B48E /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAC321528A760082B48E /* UIColor+HexString.swift */; };
+		3864CAC721551D4E0082B48E /* ServerOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAC621551D4E0082B48E /* ServerOps.swift */; };
+		3864CAC9215531D80082B48E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAC8215531D80082B48E /* SwiftyJSON.swift */; };
+		3864CAD1215CB9C90082B48E /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAD0215CB9C90082B48E /* SpinnerViewController.swift */; };
+		3864CAD9216B949D0082B48E /* String+CountryCode+Sex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAD8216B949D0082B48E /* String+CountryCode+Sex.swift */; };
+		3864CADB216C90BB0082B48E /* OpenSansSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3864CADA216C90BB0082B48E /* OpenSansSwift.framework */; };
+		3864CADF216CA5060082B48E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CADE216CA5060082B48E /* Theme.swift */; };
+		3864CAE12177394E0082B48E /* ThemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAE02177394D0082B48E /* ThemeTableViewCell.swift */; };
+		3864CAE3217889820082B48E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAE2217889820082B48E /* SignInViewController.swift */; };
+		3864CAE5217889D60082B48E /* GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864CAE4217889D60082B48E /* GoalsTableViewController.swift */; };
+		3864CAEF2179D8220082B48E /* product_Energy_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3864CAEE2179D8220082B48E /* product_Energy_Bar.png */; };
+		3864CAF12179D8AC0082B48E /* product_ZinoBiotic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3864CAF02179D8AC0082B48E /* product_ZinoBiotic.png */; };
+		3864CAF32179D9490082B48E /* product_BalanceOil_Capsules.png in Resources */ = {isa = PBXBuildFile; fileRef = 3864CAF22179D9480082B48E /* product_BalanceOil_Capsules.png */; };
+		3864CAF52179D9940082B48E /* product_Skin_Serum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3864CAF42179D9940082B48E /* product_Skin_Serum.png */; };
+		38CD601C215121A80059A61C /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD601B215121A80059A61C /* ProductsTableViewController.swift */; };
+		38CD601E215130150059A61C /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD601D215130150059A61C /* ProductTableViewCell.swift */; };
+		38CD6048215140990059A61C /* product_BalanceOil.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CD603D215140990059A61C /* product_BalanceOil.png */; };
+		38CD6049215140990059A61C /* product_Protect.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CD603E215140990059A61C /* product_Protect.png */; };
+		38CD604A215140990059A61C /* product_Viva.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CD603F215140990059A61C /* product_Viva.png */; };
+		38CD604C215140990059A61C /* product_Xtend.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CD6041215140990059A61C /* product_Xtend.png */; };
+		38CD6050215140990059A61C /* product_BalanceTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CD6045215140990059A61C /* product_BalanceTest.png */; };
+		38CD6052215140990059A61C /* product_LeanShake.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CD6047215140990059A61C /* product_LeanShake.png */; };
+		38CD6054215141A20059A61C /* String+DeletePrefixAndSuffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD6053215141A20059A61C /* String+DeletePrefixAndSuffix.swift */; };
+		38CD605621521D250059A61C /* ProductsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD605521521D240059A61C /* ProductsHelper.swift */; };
+		38CD60592152234D0059A61C /* balanceoil_aquax_SD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD60582152234C0059A61C /* balanceoil_aquax_SD.mp4 */; };
+		38CD6066215256E20059A61C /* xtend_with_dr._paul_clayton_SD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD6063215256E10059A61C /* xtend_with_dr._paul_clayton_SD.mp4 */; };
+		38CD6067215256E20059A61C /* serum_presentation_SD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD6064215256E10059A61C /* serum_presentation_SD.mp4 */; };
+		38CD6068215256E20059A61C /* viva_presentation_movie_eu_SD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD6065215256E20059A61C /* viva_presentation_movie_eu_SD.mp4 */; };
+		59E285E021599CB75D696D61 /* Pods_zzAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD1193A06060225B509EC1 /* Pods_zzAppTests.framework */; };
+		B710DFE1E5DFE1763D99A7A6 /* Pods_zzApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCCC48F336E3681FC34B77B /* Pods_zzApp.framework */; };
+		F879D3A23BAD03DD195646D8 /* Pods_zzAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591C1905E4A23AEDFFCB49D5 /* Pods_zzAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +75,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02718004E4CCEB0D991574CE /* Pods-zzAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zzAppUITests/Pods-zzAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		03BC6458D4FE98C28244CF99 /* Pods-zzApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zzApp/Pods-zzApp.debug.xcconfig"; sourceTree = "<group>"; };
+		07081FEFF38A923B906A950B /* Pods-zzAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zzAppUITests/Pods-zzAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3826E920213FF4B40086E5DC /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		3826E924214104660086E5DC /* LoggedInStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInStartViewController.swift; sourceTree = "<group>"; };
+		3826E926214264880086E5DC /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		3826E928214264880086E5DC /* zzApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zzApp.entitlements; sourceTree = "<group>"; };
+		3826E92921429D6C0086E5DC /* HealthKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitHelper.swift; sourceTree = "<group>"; };
+		3826E9652146B5430086E5DC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3826E9692147C8F90086E5DC /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		3826E96B2147DCDE0086E5DC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3826E96F21492E270086E5DC /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		3826E971214A4A990086E5DC /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		3826E9B6214FA9280086E5DC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		383BE098213FC21700925CC3 /* zzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383BE09B213FC21700925CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		383BE09D213FC21700925CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		383BE0A0213FC21700925CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		383BE0A2213FC21900925CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383BE0A5213FC21900925CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		383BE0A7213FC21900925CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +100,42 @@
 		383BE0B7213FC21900925CC3 /* zzAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zzAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		383BE0BB213FC21900925CC3 /* zzAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zzAppUITests.swift; sourceTree = "<group>"; };
 		383BE0BD213FC21A00925CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3864CABF21527A260082B48E /* GoalsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsTableViewCell.swift; sourceTree = "<group>"; };
+		3864CAC121527FF10082B48E /* AchievementsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsHelper.swift; sourceTree = "<group>"; };
+		3864CAC321528A760082B48E /* UIColor+HexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
+		3864CAC621551D4E0082B48E /* ServerOps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerOps.swift; sourceTree = "<group>"; };
+		3864CAC8215531D80082B48E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		3864CAD0215CB9C90082B48E /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		3864CAD8216B949D0082B48E /* String+CountryCode+Sex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CountryCode+Sex.swift"; sourceTree = "<group>"; };
+		3864CADA216C90BB0082B48E /* OpenSansSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenSansSwift.framework; path = Carthage/Build/iOS/OpenSansSwift.framework; sourceTree = "<group>"; };
+		3864CADE216CA5060082B48E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3864CAE02177394D0082B48E /* ThemeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTableViewCell.swift; sourceTree = "<group>"; };
+		3864CAE2217889820082B48E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3864CAE4217889D60082B48E /* GoalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsTableViewController.swift; sourceTree = "<group>"; };
+		3864CAEE2179D8220082B48E /* product_Energy_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = product_Energy_Bar.png; path = ../../../Downloads/Products/product_Energy_Bar.png; sourceTree = "<group>"; };
+		3864CAF02179D8AC0082B48E /* product_ZinoBiotic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = product_ZinoBiotic.png; path = ../../../Downloads/Products/product_ZinoBiotic.png; sourceTree = "<group>"; };
+		3864CAF22179D9480082B48E /* product_BalanceOil_Capsules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = product_BalanceOil_Capsules.png; path = ../../../Downloads/Products/product_BalanceOil_Capsules.png; sourceTree = "<group>"; };
+		3864CAF42179D9940082B48E /* product_Skin_Serum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = product_Skin_Serum.png; path = ../../../Downloads/Products/product_Skin_Serum.png; sourceTree = "<group>"; };
+		38CD601B215121A80059A61C /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		38CD601D215130150059A61C /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		38CD603D215140990059A61C /* product_BalanceOil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_BalanceOil.png; sourceTree = "<group>"; };
+		38CD603E215140990059A61C /* product_Protect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_Protect.png; sourceTree = "<group>"; };
+		38CD603F215140990059A61C /* product_Viva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_Viva.png; sourceTree = "<group>"; };
+		38CD6041215140990059A61C /* product_Xtend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_Xtend.png; sourceTree = "<group>"; };
+		38CD6045215140990059A61C /* product_BalanceTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_BalanceTest.png; sourceTree = "<group>"; };
+		38CD6047215140990059A61C /* product_LeanShake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_LeanShake.png; sourceTree = "<group>"; };
+		38CD6053215141A20059A61C /* String+DeletePrefixAndSuffix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DeletePrefixAndSuffix.swift"; sourceTree = "<group>"; };
+		38CD605521521D240059A61C /* ProductsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsHelper.swift; sourceTree = "<group>"; };
+		38CD60582152234C0059A61C /* balanceoil_aquax_SD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = balanceoil_aquax_SD.mp4; sourceTree = "<group>"; };
+		38CD6063215256E10059A61C /* xtend_with_dr._paul_clayton_SD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xtend_with_dr._paul_clayton_SD.mp4; sourceTree = "<group>"; };
+		38CD6064215256E10059A61C /* serum_presentation_SD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = serum_presentation_SD.mp4; sourceTree = "<group>"; };
+		38CD6065215256E20059A61C /* viva_presentation_movie_eu_SD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = viva_presentation_movie_eu_SD.mp4; sourceTree = "<group>"; };
+		591C1905E4A23AEDFFCB49D5 /* Pods_zzAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zzAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BD1193A06060225B509EC1 /* Pods_zzAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zzAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8874CDEA38349C51F509114A /* Pods-zzAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zzAppTests/Pods-zzAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99A30B573A6E0FB66425279C /* Pods-zzAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zzAppTests/Pods-zzAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABCCC48F336E3681FC34B77B /* Pods_zzApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zzApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55599AFF0324050FF2DD0E4 /* Pods-zzApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-zzApp/Pods-zzApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +143,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3864CADB216C90BB0082B48E /* OpenSansSwift.framework in Frameworks */,
+				B710DFE1E5DFE1763D99A7A6 /* Pods_zzApp.framework in Frameworks */,
+				3826E927214264880086E5DC /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E285E021599CB75D696D61 /* Pods_zzAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +161,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F879D3A23BAD03DD195646D8 /* Pods_zzAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3826E974214A83720086E5DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3864CAE4217889D60082B48E /* GoalsTableViewController.swift */,
+				3826E924214104660086E5DC /* LoggedInStartViewController.swift */,
+				3826E920213FF4B40086E5DC /* StartViewController.swift */,
+				38CD601B215121A80059A61C /* ProductsTableViewController.swift */,
+				3826E9652146B5430086E5DC /* SettingsViewController.swift */,
+				3864CAD0215CB9C90082B48E /* SpinnerViewController.swift */,
+				3864CAE2217889820082B48E /* SignInViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3826E975214A83ED0086E5DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3826E976214A841C0086E5DC /* Extensions */,
+				3864CAC121527FF10082B48E /* AchievementsHelper.swift */,
+				3826E9692147C8F90086E5DC /* DataProvider.swift */,
+				3826E92921429D6C0086E5DC /* HealthKitHelper.swift */,
+				3826E971214A4A990086E5DC /* LocalNotification.swift */,
+				38CD605521521D240059A61C /* ProductsHelper.swift */,
+				3826E96B2147DCDE0086E5DC /* User.swift */,
+				3864CADE216CA5060082B48E /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3826E976214A841C0086E5DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3826E96F21492E270086E5DC /* IntExtension.swift */,
+				38CD6053215141A20059A61C /* String+DeletePrefixAndSuffix.swift */,
+				3864CAC321528A760082B48E /* UIColor+HexString.swift */,
+				3864CAD8216B949D0082B48E /* String+CountryCode+Sex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		383BE08F213FC21700925CC3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +215,8 @@
 				383BE0AF213FC21900925CC3 /* zzAppTests */,
 				383BE0BA213FC21900925CC3 /* zzAppUITests */,
 				383BE099213FC21700925CC3 /* Products */,
+				67C1B3F189AEAAA114AA34EA /* Pods */,
+				4B7D03580E2FAB57EC0C657B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +233,16 @@
 		383BE09A213FC21700925CC3 /* zzApp */ = {
 			isa = PBXGroup;
 			children = (
+				3864CAC521551CE50082B48E /* Backend */,
+				3826E975214A83ED0086E5DC /* Models */,
+				38CD605A215232FB0059A61C /* Views */,
+				3826E974214A83720086E5DC /* ViewControllers */,
+				3826E928214264880086E5DC /* zzApp.entitlements */,
 				383BE09B213FC21700925CC3 /* AppDelegate.swift */,
-				383BE09D213FC21700925CC3 /* ViewController.swift */,
-				383BE09F213FC21700925CC3 /* Main.storyboard */,
+				3826E9B6214FA9280086E5DC /* Main.storyboard */,
 				383BE0A2213FC21900925CC3 /* Assets.xcassets */,
+				38CD60572152234C0059A61C /* Videos */,
+				38CD603C215140990059A61C /* Products */,
 				383BE0A4213FC21900925CC3 /* LaunchScreen.storyboard */,
 				383BE0A7213FC21900925CC3 /* Info.plist */,
 			);
@@ -125,6 +267,78 @@
 			path = zzAppUITests;
 			sourceTree = "<group>";
 		};
+		3864CAC521551CE50082B48E /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				3864CAC8215531D80082B48E /* SwiftyJSON.swift */,
+				3864CAC621551D4E0082B48E /* ServerOps.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		38CD603C215140990059A61C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CD603D215140990059A61C /* product_BalanceOil.png */,
+				3864CAF02179D8AC0082B48E /* product_ZinoBiotic.png */,
+				3864CAEE2179D8220082B48E /* product_Energy_Bar.png */,
+				3864CAF22179D9480082B48E /* product_BalanceOil_Capsules.png */,
+				38CD603E215140990059A61C /* product_Protect.png */,
+				38CD603F215140990059A61C /* product_Viva.png */,
+				38CD6041215140990059A61C /* product_Xtend.png */,
+				38CD6045215140990059A61C /* product_BalanceTest.png */,
+				38CD6047215140990059A61C /* product_LeanShake.png */,
+				3864CAF42179D9940082B48E /* product_Skin_Serum.png */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		38CD60572152234C0059A61C /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				38CD6064215256E10059A61C /* serum_presentation_SD.mp4 */,
+				38CD6065215256E20059A61C /* viva_presentation_movie_eu_SD.mp4 */,
+				38CD6063215256E10059A61C /* xtend_with_dr._paul_clayton_SD.mp4 */,
+				38CD60582152234C0059A61C /* balanceoil_aquax_SD.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		38CD605A215232FB0059A61C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3864CABF21527A260082B48E /* GoalsTableViewCell.swift */,
+				38CD601D215130150059A61C /* ProductTableViewCell.swift */,
+				3864CAE02177394D0082B48E /* ThemeTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B7D03580E2FAB57EC0C657B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3864CADA216C90BB0082B48E /* OpenSansSwift.framework */,
+				3826E926214264880086E5DC /* HealthKit.framework */,
+				ABCCC48F336E3681FC34B77B /* Pods_zzApp.framework */,
+				79BD1193A06060225B509EC1 /* Pods_zzAppTests.framework */,
+				591C1905E4A23AEDFFCB49D5 /* Pods_zzAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67C1B3F189AEAAA114AA34EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03BC6458D4FE98C28244CF99 /* Pods-zzApp.debug.xcconfig */,
+				B55599AFF0324050FF2DD0E4 /* Pods-zzApp.release.xcconfig */,
+				8874CDEA38349C51F509114A /* Pods-zzAppTests.debug.xcconfig */,
+				99A30B573A6E0FB66425279C /* Pods-zzAppTests.release.xcconfig */,
+				02718004E4CCEB0D991574CE /* Pods-zzAppUITests.debug.xcconfig */,
+				07081FEFF38A923B906A950B /* Pods-zzAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 383BE0C0213FC21A00925CC3 /* Build configuration list for PBXNativeTarget "zzApp" */;
 			buildPhases = (
+				2AD28E3A3CE0CDB0ECAAFD1F /* [CP] Check Pods Manifest.lock */,
 				383BE094213FC21700925CC3 /* Sources */,
 				383BE095213FC21700925CC3 /* Frameworks */,
 				383BE096213FC21700925CC3 /* Resources */,
+				68B45A33AE826962C1F16FBA /* [CP] Embed Pods Frameworks */,
+				3864CADD216C929D0082B48E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +366,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 383BE0C3213FC21A00925CC3 /* Build configuration list for PBXNativeTarget "zzAppTests" */;
 			buildPhases = (
+				1D6DF6435C8F4F9D92767F68 /* [CP] Check Pods Manifest.lock */,
 				383BE0A8213FC21900925CC3 /* Sources */,
 				383BE0A9213FC21900925CC3 /* Frameworks */,
 				383BE0AA213FC21900925CC3 /* Resources */,
@@ -167,6 +385,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 383BE0C6213FC21A00925CC3 /* Build configuration list for PBXNativeTarget "zzAppUITests" */;
 			buildPhases = (
+				31C4E92556424551476B1FB0 /* [CP] Check Pods Manifest.lock */,
 				383BE0B3213FC21900925CC3 /* Sources */,
 				383BE0B4213FC21900925CC3 /* Frameworks */,
 				383BE0B5213FC21900925CC3 /* Resources */,
@@ -193,6 +412,12 @@
 				TargetAttributes = {
 					383BE097213FC21700925CC3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					383BE0AB213FC21900925CC3 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -229,9 +454,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3826E9B7214FA9280086E5DC /* Main.storyboard in Resources */,
+				38CD604A215140990059A61C /* product_Viva.png in Resources */,
+				3864CAF12179D8AC0082B48E /* product_ZinoBiotic.png in Resources */,
+				38CD6050215140990059A61C /* product_BalanceTest.png in Resources */,
+				38CD6049215140990059A61C /* product_Protect.png in Resources */,
 				383BE0A6213FC21900925CC3 /* LaunchScreen.storyboard in Resources */,
 				383BE0A3213FC21900925CC3 /* Assets.xcassets in Resources */,
-				383BE0A1213FC21700925CC3 /* Main.storyboard in Resources */,
+				38CD6068215256E20059A61C /* viva_presentation_movie_eu_SD.mp4 in Resources */,
+				3864CAF32179D9490082B48E /* product_BalanceOil_Capsules.png in Resources */,
+				38CD6052215140990059A61C /* product_LeanShake.png in Resources */,
+				38CD6066215256E20059A61C /* xtend_with_dr._paul_clayton_SD.mp4 in Resources */,
+				38CD60592152234D0059A61C /* balanceoil_aquax_SD.mp4 in Resources */,
+				3864CAF52179D9940082B48E /* product_Skin_Serum.png in Resources */,
+				38CD6048215140990059A61C /* product_BalanceOil.png in Resources */,
+				38CD604C215140990059A61C /* product_Xtend.png in Resources */,
+				3864CAEF2179D8220082B48E /* product_Energy_Bar.png in Resources */,
+				38CD6067215256E20059A61C /* serum_presentation_SD.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +490,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D6DF6435C8F4F9D92767F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zzAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD28E3A3CE0CDB0ECAAFD1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zzApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31C4E92556424551476B1FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zzAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3864CADD216C929D0082B48E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OpenSansSwift.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/OpenSansSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		68B45A33AE826962C1F16FBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zzApp/Pods-zzApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AlertOnboarding/AlertOnboarding.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlertOnboarding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zzApp/Pods-zzApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		383BE094213FC21700925CC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383BE09E213FC21700925CC3 /* ViewController.swift in Sources */,
+				3826E921213FF4B40086E5DC /* StartViewController.swift in Sources */,
+				3826E92A21429D6C0086E5DC /* HealthKitHelper.swift in Sources */,
 				383BE09C213FC21700925CC3 /* AppDelegate.swift in Sources */,
+				38CD601C215121A80059A61C /* ProductsTableViewController.swift in Sources */,
+				3864CAD9216B949D0082B48E /* String+CountryCode+Sex.swift in Sources */,
+				3826E972214A4A990086E5DC /* LocalNotification.swift in Sources */,
+				3864CAC421528A760082B48E /* UIColor+HexString.swift in Sources */,
+				3864CAE12177394E0082B48E /* ThemeTableViewCell.swift in Sources */,
+				3826E925214104660086E5DC /* LoggedInStartViewController.swift in Sources */,
+				3864CAE3217889820082B48E /* SignInViewController.swift in Sources */,
+				3864CAC721551D4E0082B48E /* ServerOps.swift in Sources */,
+				3826E96A2147C8F90086E5DC /* DataProvider.swift in Sources */,
+				3864CAC9215531D80082B48E /* SwiftyJSON.swift in Sources */,
+				3864CAC021527A260082B48E /* GoalsTableViewCell.swift in Sources */,
+				3864CADF216CA5060082B48E /* Theme.swift in Sources */,
+				3864CAD1215CB9C90082B48E /* SpinnerViewController.swift in Sources */,
+				38CD601E215130150059A61C /* ProductTableViewCell.swift in Sources */,
+				3864CAC221527FF10082B48E /* AchievementsHelper.swift in Sources */,
+				3826E97021492E270086E5DC /* IntExtension.swift in Sources */,
+				3826E9662146B5440086E5DC /* SettingsViewController.swift in Sources */,
+				38CD605621521D250059A61C /* ProductsHelper.swift in Sources */,
+				3826E96C2147DCDE0086E5DC /* User.swift in Sources */,
+				3864CAE5217889D60082B48E /* GoalsTableViewController.swift in Sources */,
+				38CD6054215141A20059A61C /* String+DeletePrefixAndSuffix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +660,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		383BE09F213FC21700925CC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				383BE0A0213FC21700925CC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		383BE0A4213FC21900925CC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,9 +787,17 @@
 		};
 		383BE0C1213FC21A00925CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BC6458D4FE98C28244CF99 /* Pods-zzApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = zzApp/zzApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZXA5LGF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = zzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +805,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZZ.zzApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,9 +813,17 @@
 		};
 		383BE0C2213FC21A00925CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55599AFF0324050FF2DD0E4 /* Pods-zzApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = zzApp/zzApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZXA5LGF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = zzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,10 +838,12 @@
 		};
 		383BE0C4213FC21A00925CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8874CDEA38349C51F509114A /* Pods-zzAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZXA5LGF8;
 				INFOPLIST_FILE = zzAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,10 +860,12 @@
 		};
 		383BE0C5213FC21A00925CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A30B573A6E0FB66425279C /* Pods-zzAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZXA5LGF8;
 				INFOPLIST_FILE = zzAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -502,9 +882,11 @@
 		};
 		383BE0C7213FC21A00925CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02718004E4CCEB0D991574CE /* Pods-zzAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZXA5LGF8;
 				INFOPLIST_FILE = zzAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,9 +903,11 @@
 		};
 		383BE0C8213FC21A00925CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07081FEFF38A923B906A950B /* Pods-zzAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZXA5LGF8;
 				INFOPLIST_FILE = zzAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

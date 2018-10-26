@@ -1,0 +1,6 @@
+framework module Pods_zzApp {
+  umbrella header "Pods-zzApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

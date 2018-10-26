@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FacebookCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Theme.current.apply()
+
+        SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        if let _ = AccessToken.current {
+            loginWithExistingUser(User.sharedInstance.appId)
+        } else if User.sharedInstance.appId != "" {
+            // TODO: change id
+            print("User appID:")
+            print(User.sharedInstance.appId)
+            loginWithExistingUser(User.sharedInstance.appId)
+        } else {
+            print("Did not find any user. Launching LoginViewController")
+        }
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        let appId: String = SDKSettings.appId
+        
+        print("Another appId")
+        print(appId)
+
+        if url.scheme != nil && (url.scheme?.hasPrefix("fb\(appId)"))! && url.host == "authorize" {
+            return SDKApplicationDelegate.shared.application(app, open: url, options: options)
+        }
+        return false
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -40,7 +67,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    func loginWithExistingUser(_ userID: String) {
+        print("User exists with id \(userID). Logging in")
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let tabBarVC = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! UITabBarController
+        window?.rootViewController = tabBarVC
+    }
 }
 

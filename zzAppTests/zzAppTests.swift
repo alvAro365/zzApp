@@ -21,16 +21,20 @@ class zzAppTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testInitialUserState() {
+//        let user = User(id: "1234", healthPoints: 0)
+//
+//        XCTAssertEqual(user.id, "1234", "User id should be '1234'")
+//        XCTAssertEqual(user.healthPoints, 0, "User hp should be 0")
+        
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testGetCurrentLevel() {
+        let dataHelper = DataProvider()
+        XCTAssertEqual(dataHelper.getCurrentLevel(1), "Silver", "1 health points should be equalt to 'Silver' level")
+        XCTAssertEqual(dataHelper.getCurrentLevel(2), "Gold", "2 health points should be equalt to 'Silver' level")
+        XCTAssertEqual(dataHelper.getCurrentLevel(3), "Platinum", "3 health points should be equalt to 'Silver' level")
+        XCTAssertEqual(dataHelper.getCurrentLevel(4), "Diamond", "4 health points should be equalt to 'Silver' level")
     }
     
 }
